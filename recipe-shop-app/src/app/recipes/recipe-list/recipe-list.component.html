@@ -1,0 +1,18 @@
+<br>
+<table>
+    <thead>
+        <th>Name</th>
+        <th>Decription</th>
+        <th>Image</th>
+    </thead>
+    <tbody>
+
+<tr *ngFor="let recipe of recipes; let i = index">
+  <td>{{recipe.name}}</td>
+  <td>{{recipe.description}}</td>
+  <td><img src={{recipe.imagePath}} style="max-height: 80px;"/></td>
+</tr>
+</tbody>
+</table>
+
+<app-recipe-item></app-recipe-item>

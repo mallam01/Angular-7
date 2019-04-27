@@ -20,3 +20,6 @@ npm install --save bootstrap@3
 
 - To generate component
 ng g c COMPONENT_NAME
+
+#Debugging 
+* Install Augury on Chrome browser: https://augury.rangle.io/ 
